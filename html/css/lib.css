@@ -1,0 +1,115 @@
+@charset "utf-8";
+body{
+	background-color: #f0f0f0;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+header{
+	background-color: #124e8c;
+	width: 100%;
+	height: 80px;
+	margin: -10px;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	display: block;
+	word-break: break-word;
+}
+	#im{
+		margin-left: 20px;
+		margin-top: 5px;
+		width: 100px;
+		border-radius: 10%;
+		box-shadow:0 0 20px rgba(0, 0, 0, 1);
+	 animation: rotateInY 20s infinite linear;
+
+              transform: translateZ( -288px );
+              transform-style: preserve-3d;
+              transition: transform 1s;
+          }
+    @keyframes rotateInY {
+	0%   { transform: translateZ(-288px) rotateY(0deg);   }
+	100% { transform: translateZ(-288px) rotateY(360deg);    }
+    }
+     header table #bus{
+		padding-left: 1000px;
+    }
+     
+    header #vus{
+     	border-radius: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+     }	
+     header #bu{
+     	border-radius: 40px;
+     	font-size: 18px;
+     	background-color: #ea9c08;
+     	border-color: #ea9c08;
+     }
+nav{
+	height: 50px;
+    width: 100%;
+    margin-top: 70px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    word-break: break-word;
+}
+
+aside{
+	background-color: #ffffff;
+    float: left;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+		#pre img{
+			margin-left:15px;
+			width: 80%;
+			border-radius: 30px;
+
+		}
+		#pre p{
+			background-color: #124e8c;
+			text-align: 1px;
+			padding: 2px;
+		}
+		object{
+			
+			width: 200;
+    height: 303;
+		}
+section{
+	margin: center;
+	width: 85%; 
+	margin-top: 180px;
+	margin-right: 2%;
+}
+	section img{
+		    width: 129px;
+    float: left;
+    margin: 10px;
+    border-radius: 20px;
+	}
+	section p{
+		margin-left: 12%;
+
+	}
+	#in{
+		    background-color: rgba(23, 204, 155, 0.07);
+    border-width: 1px;
+    border-radius: 70px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    padding: 30px;
+	}
+
+	#libr{
+			height: 80%;
+			background-color: #AAB7B8;
+			border-radius: 20px;
+			margin-top: 5px;
+			padding: 5px;
+
+	}

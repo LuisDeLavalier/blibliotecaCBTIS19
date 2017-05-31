@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>admin</title>
+	<link rel="stylesheet" href="css/estila2.css">
+</head>
+<body>
+	<header><!--esta es la cabesera-->
+		<table >
+			<td ><img id="im" src="imagen/logolib.jpg"></td>
+			<td id="bus" >  
+		        <form action="buscar.php" method="post">                    
+		           <input id="vus" type="text" name="buscar">
+		          <input id="bu" type="submit" value="Buscar">
+		         </form>
+	       </td>
+			<td></td>
+		</table>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="agregar.html">agregar</a></li>
+			<li><a href="modificar.html">modificar</a></li>
+			<li><a href="eliminar.html">eliminar</a></li>
+		</ul>
+	</nav>
+	<section>
+	<form action="php/buscar.php" method="post" name="form" enctype="multipart/form-data">
+	<input type="text" name="bus">
+		<table id="pe">
+			<tr>
+				<td>Nombre:</td>
+				<td><input type="text" required name="nombre" placeholder="nombre"></td>
+			</tr>
+			<tr>
+				<td>Autor</td>
+				<td><input type="text" name="autor"> </td>
+			</tr>
+			<tr>
+				<td>Editorial</td>
+				<td><input type="text" name="editoria"></td>
+			</tr>
+			<tr>
+				<td>ISBN</td>
+				<td><input type="text" name="isbn"></td>
+			</tr>
+			<tr>
+				<td>Imagen</td>
+				<td><input type="file" name="img"></td>
+			</tr>
+			<tr>
+				<td>Archivo</td>
+				<td><input type="file" name="archivo"></td>	
+			</tr>
+			<tr>
+				<td>Categoria</td>
+				<td><input type="txt" name="categoria"></td>
+			</tr>
+			<tr>
+				<td>Url</td>
+				<td><input type="text" name="url"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" va></td>
+			</tr>
+		</table>
+		</form>
+	</section>
+</body>
+</html>
